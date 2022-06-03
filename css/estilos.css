@@ -1,0 +1,93 @@
+body{
+    padding: 0p;
+    margin: 0;
+}
+.fondoazul{
+    background-color: #00031F;
+    
+}
+.titular{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    padding: 50px 0px 0px 50px;
+}
+.parrafo{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+    padding: 0px 50px 50px 50px;
+    text-align: left;
+}
+.fondoconimagen{
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.bordes{
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 20px;
+}
+@media screen and (max-width: 990px){
+    .fondoconimagen{
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+}
+.subtitulo{
+    font-family: 'Lato', sans-serif;
+    color: #00031F;
+    font-size: 24px;
+    text-align: center;
+}
+ul li{
+    font-family: 'Lato', sans-serif;
+    color: #00031F;
+    font-size: 18px;
+}
+.fondonaranja{
+    background-color: #FF985E;
+}
+.h2blanco{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.icono{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.incluye{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    color: #00031F;
+    font-size: 18px;
+    text-align: center;
+}
+.telefono{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.web{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
